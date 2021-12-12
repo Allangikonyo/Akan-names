@@ -1,0 +1,21 @@
+body {
+ background-color: blue;
+ color: white;    
+}
+
+.cover {
+    width: 480px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.cover label {
+    display: block;
+    margin: 0.5cm 0; 
+}
+
+.cover label input {
+    font-size: 18px;
+    padding: 0.5cm;
+
+}
