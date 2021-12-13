@@ -3,13 +3,17 @@ body {
  color: white;    
 }
 
-.cover {
+.container {
+    background-color: lightblue;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(red, green, blue, alpha);
+    overflow: hidden;
     width: 480px;
-    max-width: 95%;
-    margin: 0 auto;
+    max-width: 100%;
+
 }
 
-.cover label {
+.header {
     display: block;
     margin: 0.5cm 0; 
 }
