@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    background-color: lightblue;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(red, green, blue, alpha);
     overflow: hidden;
@@ -56,8 +56,8 @@ body {
 }
 
 .button {
-    background-color: blue;
-    border: 2px solid blue;
+    background-color: rgb(93, 93, 240);
+    border: 2px solid rgb(93, 93, 240);
     border-radius: 4px;
     color: white; 
     display: block;
