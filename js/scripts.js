@@ -21,7 +21,7 @@ function akan (){
 // using calculation formula 
 const dayOfTheWeek= (((century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day)%7; 
 
-//sets up a the validation of the data using logical operators + control flows  
+
  if (document.getElementById("gender").checked){
    var gender = 'male';
   
@@ -30,11 +30,11 @@ else {
     var gender = 'female';
 } 
 
+// performs calculation on data and assigns akan name
 if (month <= 0 || month > 12 || month == ''){
   //show error
   message.push('Valid month is required');
 }
-
 else if ((day <= 0 || day > 32 || day == '')){
   //show error
   message.push(day, 'Valid day is required');
