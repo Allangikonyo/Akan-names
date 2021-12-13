@@ -43,7 +43,45 @@ else if ((day.value <= 0 || day.value > 32 || day.value == '')){
   //show error
   message.push(day, 'Valid day is required');
 } 
-else if 
+else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
+  alert ("Your akan name is "+maleNames[0]);
+}
+
+else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
+  alert ("Your akan name is "+maleNames[0]);
+}
+
+else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
+  alert ("Your akan name is "+maleNames[0]);
+}
+
+else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
+  alert ("Your akan name is "+maleNames[0]);
+}
+
+else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
+  alert ("Your akan name is "+maleNames[0]);
+}
+
+else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
+  alert ("Your akan name is "+maleNames[0]);
+}
+
+else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
+  alert ("Your akan name is "+maleNames[0]);
+}
+
+else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
+  alert ("Your akan name is "+maleNames[0]);
+}
+
+else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
+  alert ("Your akan name is "+maleNames[0]);
+}
+
+else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
+  alert ("Your akan name is "+maleNames[0]);
+}
 
 
 // sets up functions to be called when the form is submitted
