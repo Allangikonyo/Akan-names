@@ -7,7 +7,11 @@
 
     <script src="js/scripts.js"></script>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-
+    <style>
+        div {
+          background-image: url('https://1.bp.blogspot.com/-sTxAHAxirGM/WVbAe2098nI/AAAAAAABENs/_I5sYMYgLOUzaIE7FfF4qdGX-hoAkq9SgCLcBGAs/s1600/Blog_20170624_113552.jpg');
+        }
+        </style>
 </head>
 <body>
    
@@ -16,31 +20,33 @@
     <h1>Akan Names</h1>
     </div>
 
-    <div class = header2>
-    <h2>Enter your Birthday:</h2>
-
-    </div>
-
     <div class = intro>
         <p>The Akan people of Ghana frequently name their children after the day of the week 
             they were born and the order in which they were born. This naming tradition is 
             shared throughout West Africa and the African diaspora. </p>
     </div>
 
+    <div class = header2>
+    <h2>Enter your Birthday:</h2>
+
+    </div>
 
     <form class = "form" id= "form">
     
+        <div class = "form-control">
         <label for="Year">Year:</label>
-        <input type = "number" name = "Year" id= "Year" required>
-  
+        <input type = "number" placeholder="Year" name = "Year" id= "Year" required>
+        </div>
 
+        <div class = "form-control">
         <label for="Month">Month:</label>
-        <input type = "number" name = "Month" id= "Month" required>
+        <input type = "number" placeholder="Month" name = "Month" id= "Month" required>
+        </div>
 
-
+        <div class = "form-control">
         <label for="Day">Day:</label>
-        <input type = "number" name = "Day" id= "Day" required>
-
+        <input type = "number" placeholder="Month" name = "Day" id= "Day" required>
+        </div>
 
         <label for="Gender">Gender: </label>
 
