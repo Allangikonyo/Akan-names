@@ -20,9 +20,14 @@ body {
    
 }
 
+.intro {
+    font-family: inherit;
+
+}
+
 .header2 {
     margin: 0;
-
+    
 }
 
 .form {
@@ -48,4 +53,17 @@ body {
     position: absolute;
     top: 40px;
     right: 10px;
+}
+
+.button {
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 4px;
+    color: white; 
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px; 
+    width: 100%
+
 }
