@@ -27,7 +27,7 @@ const dayOfTheWeek= (((century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)
   
  }
 else {
-    var gender = 'female'
+    var gender = 'female';
 } 
 
 if (month <= 0 || month > 12 || month == ''){
@@ -70,91 +70,40 @@ else if (Math.round(dayOfTheWeek)==7 && gender === 'female') {
   alert ("Your akan name is "+femaleNames[7]);
 }
 
+else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
+  alert ("Your akan name is "+ maleNames[0]);
+}
+
 else if (Math.round(dayOfTheWeek)==1 && gender === 'male') {
-  alert ("Your akan name is "+maleNames[0]);
+  alert ("Your akan name is "+ maleNames[1]);
 }
 
-else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
-  alert ("Your akan name is "+maleNames[0]);
+else if (Math.round(dayOfTheWeek)==2  && gender === 'male') {
+  alert ("Your akan name is "+maleNames[2]);
 }
 
-else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
-  alert ("Your akan name is "+maleNames[0]);
+else if (Math.round(dayOfTheWeek)==3  && gender === 'male') {
+  alert ("Your akan name is "+maleNames[3]);
 }
 
-else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
-  alert ("Your akan name is "+maleNames[0]);
+else if (Math.round(dayOfTheWeek)==4 && gender === 'male') {
+  alert ("Your akan name is "+maleNames[4]);
 }
 
-else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
-  alert ("Your akan name is "+maleNames[0]);
+else if (Math.round(dayOfTheWeek)==5 && gender === 'male') {
+  alert ("Your akan name is "+maleNames[5]);
 }
 
-else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
-  alert ("Your akan name is "+maleNames[0]);
+else if (Math.round(dayOfTheWeek)==6 && gender === 'male') {
+  alert ("Your akan name is "+maleNames[6]);
 }
 
-else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
-  alert ("Your akan name is "+maleNames[0]);
+else if (Math.round(dayOfTheWeek)==7 && gender === 'male') {
+  alert ("Your akan name is "+maleNames[7]);
 }
-
-else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
-  alert ("Your akan name is "+maleNames[0]);
-}
-
-else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
-  alert ("Your akan name is "+maleNames[0]);
-}
-
-
-// sets up functions to be called when the form is submitted
-form.addEventListener('submit' , (e) => {
-   e.preventDefault(); // stop form from submitting
-
-   checkInput();
-
-})
-
-function checkInput() {
-  // get the value from the input
-  const yearValue = year.value 
-  const monthValue = month.value 
-  const dayValue = day.value
-  const genderValue = gender.value
-
-  if (Month.value <= 0 || Month.value > 12 || month.value == ''){
-    //show error
-    message.push('Valid month is required');
-  } 
-  else {
-      //add success class 
-    setSuccessFor(month);
-  }
-  if (day.value <= 0 || day.value > 32 || day.value == ''){
-    //show error
-    message.push(day, 'Valid day is required');
-  } 
-  else {
-      //add success class 
-    setSuccessFor(day);
-  }
   
+else if (Math.round(dayOfTheWeek)==0 && gender === 'male') {
+  alert ("Your akan name is "+maleNames[0]);
 }
 
-function setErrorFor(input, message) {
-  const scriptFormat = input.parentElement; 
-  const small = scriptFormat.querySelector ('small');
-
-  // add error message inside small 
-
-  small.innerText = message;
-
-  // add error class
-  scriptFormat.className = 'script-format error';
-
-
-}
-
-function assignNames (){
-  
-}
+} 
