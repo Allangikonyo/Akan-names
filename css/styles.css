@@ -14,16 +14,21 @@ body {
 }
 
 .header {
-    display: block;
-    margin: 0.5cm 0; 
+    background: color #f7f7f7; 
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+   
 }
 
-.cover label input {
-    font-size: 18px;
-    padding: 0.5cm;
+.header2 {
+    margin: 0;
 
 }
 
+.form {
+    padding: 30px 40px;
+
+}
 .cover input[type = "submit"]{
     font-size: 25px;
     color: blue;
