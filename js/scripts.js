@@ -34,6 +34,7 @@ if (month <= 0 || month > 12 || month == ''){
   //show error
   message.push('Valid month is required');
 }
+
 else if ((day <= 0 || day > 32 || day == '')){
   //show error
   message.push(day, 'Valid day is required');
