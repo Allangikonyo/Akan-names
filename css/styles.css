@@ -1,32 +1,52 @@
 body {
- background-color: lightblue;
- color: white;    
-}
+    
+    background-image: url('https://1.bp.blogspot.com/-sTxAHAxirGM/WVbAe2098nI/AAAAAAABENs/_I5sYMYgLOUzaIE7FfF4qdGX-hoAkq9SgCLcBGAs/s1600/Blog_20170624_113552.jpg');
+    background-color: lightblue;
+    color: white;    
+   }
+   
+   .container {
+       background-image: url('https://1.bp.blogspot.com/-sTxAHAxirGM/WVbAe2098nI/AAAAAAABENs/_I5sYMYgLOUzaIE7FfF4qdGX-hoAkq9SgCLcBGAs/s1600/Blog_20170624_113552.jpg');
+    
+       width: 480px;
+       max-width: 95%;
+       margin: 0 auto;
+        border-radius: 5px;
+   }
+   .container label {
+       display: block;
+       margin: 0.5cm 0; 
+   }
+   .container label input {
+       font-size: 18px;
+       padding: 0.5cm;
 
-.container {
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(red, green, blue, alpha);
-    overflow: hidden;
-    width: 480px;
-    max-width: 100%;
-
-}
+   }
+   
+   .container input[type = "submit"]{
+       font-size: 25px;
+       color: blue;
+   
+   } 
 
 .header {
-    background: color #f7f7f7; 
+    background: color #84b0f1; 
     border-bottom: 1px solid #f0f0f0;
     padding: 20px 40px;
+    font-size: large;
+    text-align: center;
    
 }
 
 .intro {
+    text-align: center;
     font-family: inherit;
 
 }
 
 .header2 {
     margin: 0;
+    text-align: center;
     
 }
 
@@ -34,36 +54,4 @@ body {
     padding: 30px 40px;
 
 }
-.form-control label {
-    display: inline-block;
-    margin-bottom: 5px;
-}
 
-.form-control input {
-    border: 2px solid #f0f0f0; 
-    border-radius: 4px;
-    display: block;
-    font-family: inherit;
-    font-size: 14px;
-    padding: 10px; 
-    width: 100%
-}
-
-.form-control {
-    position: absolute;
-    top: 40px;
-    right: 10px;
-}
-
-.button {
-    background-color: rgb(93, 93, 240);
-    border: 2px solid rgb(93, 93, 240);
-    border-radius: 4px;
-    color: white; 
-    display: block;
-    font-family: inherit;
-    font-size: 16px;
-    padding: 10px; 
-    width: 100%
-
-}
