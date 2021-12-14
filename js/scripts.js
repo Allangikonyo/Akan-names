@@ -21,7 +21,7 @@ function akan (){
 // using calculation formula 
 const dayOfTheWeek= (((century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day)%7; 
 
-
+// gender validation
  if (document.getElementById("gender").checked){
    var gender = 'male';
   
