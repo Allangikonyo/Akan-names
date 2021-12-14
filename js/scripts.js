@@ -1,9 +1,11 @@
+document.getElementById("formAkan").addEventListener('submit', akan);
+
 // create a function that calculates the akan names
 function akan (){
   // add names into an array 
   var femaleNames = [Akosua, Adwoa, Abenaa, Akua, Yaa, Afua, Ama];
   var maleNames = [Kwasi, Kwadwo, Kwabena, Kwaku, Yaw, Kofi, Kwame];
-
+  
 // declare the variables as a constant 
 // return an element object whose id property matches the specified string
 // get the value from the input
@@ -21,7 +23,7 @@ function akan (){
 // using calculation formula 
 const dayOfTheWeek= (((century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day)%7; 
 
-// gender validation
+// gender 
  if (document.getElementById("gender").checked){
    var gender = 'male';
   
